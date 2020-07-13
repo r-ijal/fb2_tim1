@@ -2,8 +2,27 @@
 <html>
 
   <style>
-     body{background-color: #FFFACD;}
+    body{
+      background-color: #48D1CC;
+      background-image:"mnrlogo_big";
+      margin: 0px;
+      padding: 0px;
+      }
+    .header{
+      width: 100%;
+      height: 100px;
+      background-color: #C0C0C0;
+      color:white;
+      font-size: 80px;
+      text-align: center;
+      }
+    .footer{
+      width: 100%;
+      height: 50px;
+      background-color: aqua;
+    }    
   </style>
+
 
   <head>
     <title>Mancing Nyantol Runti</title>
@@ -57,13 +76,9 @@
     <script></script>
 
     <!--Judul-->
-    <h1>
-      <div style="background-color:#BC8F8F;height: 80px;width: auto">
-        <centre>
-          <span style="color:red">M</span>ancing <span style="color:red">N</span>yantol <span style="color:red">R</span>unti
-        </centre>
-      </div>
-    </h1>
+    <div class="header">
+      <b><span style="color:red">M</span>ancing <span style="color:red">N</span>yantol <span style="color:red">R</span>unti</b>
+    </div>
 
     <!--About Us / Greetings-->
       <div id="perkenalan">
@@ -166,17 +181,31 @@
             <p>Kebanyakan pemancing biasanya menggunakan reel untuk umpan Minnow menggunakan ratio 5.6:1</p>
             <p>Sedangkan untuk mancing di sekitaran dam semarang lebih efektif pakai udang hidup daripada pake lure spoon dan minnow</p>
 
-      <div>
-      <p>Gabung Mancing Nyaruu</p>
-      <form>
-          <p>Nama<input type="text">
-             Jenis Kelamin<select><option>Pria</option><option>Wanita</option></select>
-          </p>
-          <p>No Telp<input type="text"></p>
-          <p>Alasan ingin bergabung<br><textarea rows"25"></textarea></p>
-          <button>Simpan</button>
-      </form>
-      </div>
 
+    <!--Form-->
+        <h3>
+          Minat? Join Us!
+        </h3>
+            <table>
+                <tr>
+                    <td>Nama</td><td>:</td><td><input type="text"></td>
+                    <td>Jenis Kelamin<td>:</td><td><select><option>Pria</option><option>Wanita</option></select></td>
+                </tr>
+                <tr>
+                    <td>No. Telp/Whatsapp</td><td>:</td><td><input type="text"></td>
+                    <td>Email</td><td>:</td><td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Alasan Ingin Bergabung</td><td>:</td><td><textarea name="Alasan" id="asd" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td><button>Simpan</button></td>
+                </tr>
+            </table>
+
+    <!--Footer-->
+     <div class="footer">
+      <p style="text-align: center;">Tugas 1 Team 1 Fosan Academy Batch 2</p>
+    </div>
   </body>
 </html>
